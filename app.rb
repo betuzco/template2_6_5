@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-require 'sinatra'
-require './config'
-
-get '/' do
-    session[:pais_oculto]= "* * * * *"
-    erb :index
-end
-
-post '/intentar' do
-    session[:pais_oculto]= "* h * * *"
-    erb :index
-=======
 require 'sinatra'
 require './config'
 require './lib/adivina-la-palabra'
@@ -29,5 +16,5 @@ post '/intentar' do
     end
     
     erb :index
->>>>>>> 5cba30773ce3633fb9c817b08e57de98ab4bb53a
+    
 end
