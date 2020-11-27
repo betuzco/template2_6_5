@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahorcado</title>
-</head>
-<body>
-    <h1 id="nombre">Bienvenido a adivina el País</h1>
-    <br/>
-    <h1 id="mensaje">El país a adivinar es: <%= session[:pais_oculto]  %> </h1>
-    <br/>
-    <form action="/intentar" method="post">
-        <input type="input" name="letra"/>
-        <input type="submit" value="Intentar"/>
-    </form>
-</body>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,5 +17,4 @@
 
     <h1><%= session[:feedback] %></h1>
 </body>
->>>>>>> 5cba30773ce3633fb9c817b08e57de98ab4bb53a
 </html>
